@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/api", (req, res) => {
-  res.send("API is working!");
+  res.send("API is working now!");
 });
 
 app.listen(port, () => {
